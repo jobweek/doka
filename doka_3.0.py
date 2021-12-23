@@ -671,7 +671,7 @@ def main(main_player_id, game_count):
 
     match_list = game_info_reader(users_tid)
  
-    with Pool(processes = 20) as pool:
+    with Pool(processes = 30) as pool:
 
         for i in pool.imap(partial(teammate_worker, main_player_id = main_player_id, namespace = namespace, num = 5), match_list):
 
@@ -679,7 +679,7 @@ def main(main_player_id, game_count):
 
         pool.close()
 
-    with Pool(processes = 20) as pool:
+    with Pool(processes = 30) as pool:
 
         for i in pool.imap(partial(winrate_worker, namespace = namespace, num = 5), match_list):
 
