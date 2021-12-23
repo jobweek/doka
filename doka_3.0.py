@@ -690,10 +690,10 @@ def main(main_player_id, game_count):
 if __name__ == '__main__':
 
     freeze_support()
-    main(main_player_id_1, 300)
-    main(main_player_id_2, 300)
-    main(main_player_id_3, 300)
-    #main(main_player_id_4, 300)
-    #main(main_player_id_5, 300)
+    #main(main_player_id_1, 300)
+    #main(main_player_id_2, 300)
+    #main(main_player_id_3, 300)
+    main(main_player_id_4, 300)
+    main(main_player_id_5, 300)
 
 
