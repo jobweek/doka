@@ -300,8 +300,4 @@ def main(users_tid):
 
 if __name__ == '__main__':
 
-    main('217')
-    main('218')
-    main('219')
-    main('220')
     main('221')
