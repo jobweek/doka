@@ -30,7 +30,7 @@ def proxy_text():
     for _ in range(10):
 
         try:
-
+            
             r = requests.get(url, headers = user_agent, timeout = 1)
 
             break
